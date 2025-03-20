@@ -44,7 +44,7 @@ Some of our biggest concerns were:
 
 Below you can see how it all looks after we took it out the first time:
 
-<img style="max-width: 500px" src="/assets/posts/rpi-freezing-initial-setup.jpg" />
+<img style="max-width: 100%" src="/assets/posts/rpi-freezing-initial-setup.jpg" />
 
 After we got it all figured out and working, we started trying different things.
 
@@ -97,8 +97,8 @@ Now we put it inside a plastic bag with some industrial drying solvent (rice on 
 
 You can see the condensation here:
 
-<img style="max-width: 240px" src="/assets/posts/rpi-freezing-condensation-1.jpg" />
-<img style="max-width: 240px" src="/assets/posts/rpi-freezing-condensation-2.jpg" />
+<img style="max-width: 45%" src="/assets/posts/rpi-freezing-condensation-1.jpg" />
+<img style="max-width: 45%" src="/assets/posts/rpi-freezing-condensation-2.jpg" />
 
 This time when we put it back in, it took it a lot longer to cool down. The cause for that is probably the air in the bag.
 
@@ -205,12 +205,12 @@ Next time, there will be many things we’ll do differently:
 
 Lastly, here are some more pictures for your satisfaction:
 
-<img style="max-width: 240px" src="/assets/posts/rpi-freezing-extra-1.jpg" />
-<img style="max-width: 240px" src="/assets/posts/rpi-freezing-extra-2.jpg" />
-<img style="max-width: 240px" src="/assets/posts/rpi-freezing-extra-3.jpg" />
-<img style="max-width: 240px" src="/assets/posts/rpi-freezing-extra-4.jpg" />
-<img style="max-width: 240px" src="/assets/posts/rpi-freezing-extra-5.jpg" />
-<img style="max-width: 240px" src="/assets/posts/rpi-freezing-extra-6.jpg" />
+<img style="max-width: 45%" src="/assets/posts/rpi-freezing-extra-1.jpg" />
+<img style="max-width: 45%" src="/assets/posts/rpi-freezing-extra-2.jpg" />
+<img style="max-width: 45%" src="/assets/posts/rpi-freezing-extra-3.jpg" />
+<img style="max-width: 45%" src="/assets/posts/rpi-freezing-extra-4.jpg" />
+<img style="max-width: 45%" src="/assets/posts/rpi-freezing-extra-5.jpg" />
+<img style="max-width: 45%" src="/assets/posts/rpi-freezing-extra-6.jpg" />
 
 Feel free to comment, email me, and be sure to visit [http://fucktre.es](https://fucktre.es/) – my more important blog to raise awareness of asshole trees.
 
