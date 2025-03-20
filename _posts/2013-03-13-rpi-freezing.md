@@ -8,7 +8,7 @@ Just over 12 years ago, my dad and I dunked a Raspberry Pi model B (first genera
 
 The last copy I have of this post is [included](/assets/posts/rpi-freezing-post.pdf), and here's [the archived article about this by Geek.com](https://web.archive.org/web/20151113155128/http://www.geek.com/chips/raspberry-pi-proven-to-be-stable-when-submerged-in-liquid-nitrogen-1555235/).
 
-You can find my reflections on this [in an upcoming post](/posts/reflections-on-my-first-blog-post).
+You can find my reflections on this in an upcoming post.
 
 <!-- toc -->
 
