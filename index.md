@@ -58,7 +58,7 @@ Check out my [resume](docs/resume.pdf)!
 * At `NordstromRack.com|Hautelook` I produced [a presentation on a few CISSP chapters](cissp-access-mgmt-presentation/) with a partner
     * though it's not as useful without our [notes](https://github.com/slavaaaaaaaaaa/cissp-access-mgmt-presentation/blob/master/presentation.md)
 
-## [Folks and friends](https://github.com/slavaaaaaaaaaa/slavaaaaaaaaaa.github.io/blob/master/ansible/roles/dotfiles/files/.newsboat/urls)
+## Friends
 
 Sorted by most updated:
 
