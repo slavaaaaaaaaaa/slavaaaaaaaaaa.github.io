@@ -3,6 +3,20 @@
 
 @import "{{ site.theme }}";
 
+body {
+  word-wrap: normal;
+  background-color: #fff;
+  font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #727272;
+  font-weight: 400;
+}
+
+@media print, screen and (min-width: 960px) {
+    body {
+      padding: 50px;
+    }
+}
+
 @media print, screen and (max-width: 960px) {
     section {
       border: none;
@@ -10,14 +24,9 @@
       padding: none;
       margin: none;
     }
-}
-body {
-  word-wrap: normal;
-  background-color: #fff;
-  padding: 50px;
-  font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #727272;
-  font-weight: 400;
+    body {
+      padding: none;
+    }
 }
 
 img.front_profile {
