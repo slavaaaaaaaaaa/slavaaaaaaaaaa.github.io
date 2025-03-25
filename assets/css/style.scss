@@ -3,6 +3,14 @@
 
 @import "{{ site.theme }}";
 
+@media print, screen and (max-width: 960px) {
+    section {
+      border: none;
+      border-width: none;
+      padding: none;
+      margin: none;
+    }
+}
 body {
   word-wrap: normal;
   background-color: #fff;
