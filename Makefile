@@ -18,10 +18,6 @@ TEST_ARGS?=-C
 ansible-%:
 	cd ansible && ansible-playbook playbooks/$*.yml --ask-become-pass -D $(TEST_ARGS)
 
-resume:
-	echo "Building your resume..."
-	bin/build_resume.sh
-
 dependencies:
 	bundle install
 

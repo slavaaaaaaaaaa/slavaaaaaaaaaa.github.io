@@ -1,6 +1,6 @@
 # [I am Slava](mailto:me@slava.lol?Subject=beer%20time) ![](https://github.com/slavaaaaaaaaaa/smaslennikov.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
 
-Check out my [resume](docs/resume.pdf)!
+Check out my [resume](docs/resume/resume.pdf)!
 
 ## Blog posts
 

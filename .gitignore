@@ -12,3 +12,8 @@ ansible/roles/geerlingguy.homebrew/
 Gemfile.lock
 _site
 vendor/
+
+**/resume.fdb_latexmk
+**/resume.fls
+**/resume.out
+**/*/resume.synctex.gz

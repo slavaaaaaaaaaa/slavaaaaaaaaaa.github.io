@@ -1,143 +1,234 @@
-\documentclass[line]{docs/resume/res}
-\usepackage[T1]{fontenc}
+% !TeX root = resume.tex
+\documentclass[pastel]{simplehipstercv}
+% available options are: darkhipster, lighthipster, pastel, allblack, grey, verylight, withoutsidebar
+% withoutsidebar
+\usepackage[utf8]{inputenc}
+\usepackage[default]{raleway}
+\usepackage[margin=1cm, letterpaper]{geometry}
+
+
 \usepackage{hyperref}
 
+\hypersetup{
+  colorlinks, linkcolor=black!70, citecolor=black!70, urlcolor=black!70,
+}
+
+\definecolor{ccblue}{HTML}{7e91c6}
+\definecolor{ccorange}{HTML}{f7bea9}
+
+%------------------------------------------------------------------ Variablen
+
+\newlength{\rightcolwidth}
+\newlength{\leftcolwidth}
+\setlength{\leftcolwidth}{0.23\textwidth}
+\setlength{\rightcolwidth}{0.75\textwidth}
+
+\title{New Simple CV}
+\author{\LaTeX{} Ninja}
+\date{June 2019}
+
+\pagestyle{empty}
 \begin{document}
 
-\name{Svyatoslav I. Maslennikov}
-\address{C: +1-858-523-8059 | E: jobs@slava.lol}
-\address{L: Port Orchard, WA, USA | https://slava.lol}
+\thispagestyle{empty}
+%-------------------------------------------------------------
 
-\begin{resume}
+\section*{Start}
 
-\section{Languages}
-  {\sl Russian,} native speaker \\
-  {\sl English,} fluent
+\simpleheader{headercolour}{Slava I.}{Maslennikov}{Leader, Consultant, Architect}{white}
 
-\section{Experience}
-  {\sl Founder, Cool Consulting, LLC} \hfill 2024 - present
-  \begin{itemize} \itemsep -2pt
-    \item Providing business and people-management consulting to SMB
-  \end{itemize}
+%------------------------------------------------
 
-  {\sl Senior Manager, Infrastructure Modernization at SADA Systems, Inc.} \hfill 2022 - 2025
-  \begin{itemize} \itemsep -2pt
-    \item Established and grew the Integrations and Operations specialization
-    \item Generating training materials, established career paths
-    \item Developing service offerings as products
-    \item Leading, coaching and mentoring a mix of 10-12 engineers and managers
-    \item Handling client escalations
-    \item Integrating and aligning with offshore teams
-  \end{itemize}
+% this has to be here so the paracols starts..
+\subsection*{}
+\vspace{4em}
 
-  {\sl Manager, Infrastructure Modernization at SADA Systems, Inc.} \hfill 2021 - 2022
-  \begin{itemize} \itemsep -2pt
-    \item Focused on leading and mentoring ten to twelve engineers, including new hires
-    \item Handled client escalations
-    \item Integrated, lead and engaged an offshore team of engineers
-  \end{itemize}
+\setlength{\columnsep}{1.5cm}
+\columnratio{0.23}[0.75]
+\begin{paracol}{2}
+    \hbadness5000
+    %\backgroundcolor{c[1]}[rgb]{1,1,0.8} % cream yellow for column-1 %\backgroundcolor{g}[rgb]{0.8,1,1} % \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
 
-  {\sl Associate Manager, Infrastructure Modernization at SADA Systems, Inc.} \hfill 2021
-  \begin{itemize} \itemsep -2pt
-    \item Continued working with clients while leading a team of three to twelve engineers
-    \item Led bi-weekly one-on-ones alternated by Team Meetings
-    \item Mentored Engineers and helped with personal growth and career pathing
-    \item Developed an initiative and motivation around internal work during client lulls
-    \item Worked closely with Resource Management and the Sales pipeline to optimally \\
-      assign resources to clients
-  \end{itemize}
+    \paracolbackgroundoptions
 
-  {\sl Sr. Cloud Engineer at SADA Systems, Inc.} \hfill 2018 - 2021
-  \begin{itemize} \itemsep -2pt
-    \item Mentored Engineers through one-on-ones, pair programming and general support
-    \item Consulted and assisted clients in migrations between AWS, GCP, Kubernetes, \\
-      EKS, GKS, Cloud SQL, hosted PostgreSQL, MySQL, MSSQL and related systems
-    \item Configured and managed CI/CD services, including Spinnaker and Jenkins X
-    \item Embedded with clients to containerize and migrate applications to Kubernetes
-    \item Worked according to clients' timelines, uptime and technical constraints
-  \end{itemize}
+    % 0.9,0.9,0.9 -- 0.8,0.8,0.8
 
-  {\sl Sr. Site Reliability Engineer at Grindr, LLC} \hfill 2017 - 2018
-  \begin{itemize} \itemsep -2pt % reduce space between items
-    \item Managed AWS (EC2, IAM, RDS, Redshift, Route53, S3, etc.) with Terraform
-    \item Structured and built RPM and DEB packages with fpm-cookery and Revolution
-    \item Transitioned infrastructure from legacy Ubuntu to CentOS
-    \item Configured CI/CD using Jenkins pipelines for several projects
-    \item Automated tasks with Ansible
-    \item Worked with other teams to operationalize development efforts
-    \item Participated in and submitted bugfixes to relevant OSS projects
-  \end{itemize}
+    \footnotesize
+    {\setasidefontcolour
+        \flushright
+        \begin{center}
+            \squarepic{../../me.png}
+        \end{center}
 
-  {\sl Platform Engineer at NordstromRack.com|Hautelook} \hfill 2016 - 2017
-  \begin{itemize} \itemsep -2pt % reduce space between items
-    \item Built, structured and maintained AWS cloud infrastructure with Terraform
-    \item Implemented CI/CD for AWS AMI builds using Jenkins Pipelines and Packer
-    \item Co-wrote an Nginx routing tool using TDD and a containerized testing harness
-    \item Managed configurations with Ansible, Puppet and Chef at the Data Center and AWS
-    \item Automated tasks with Ansible
-    \item Transferred infrastructure configuration management from Puppet to Chef
-    \item Presented and participated in the weekly CISSP exam study group
-    \item Participated in relevant OSS projects
-  \end{itemize}
+        \bg{ccblue}{white}{Specialty} \\[1.5em]
 
-  \vspace{0.1in} % force a page break
+        Mentorship ~•~ Leadership
 
-  {\sl Systems Administrator at Dreamhost} \hfill 2016
-  \begin{itemize} \itemsep -2pt
-    \item Automated routine tasks with Perl and Bash using internal libraries
-    \item Monitored and fixed issues on systems
-    \item Deployed new machines using Chef and Nephology
-    \item Built, compiled and deployed packages across several hosting infrastructures
-    \item Made operational changes to production servers
-  \end{itemize}
+        SRE ~•~ DevOps ~•~ Cloud
 
-  {\sl Network Analyst at Cal Poly Pomona} \hfill 2014 - 2016
-  \begin{itemize} \itemsep -2pt
-    \item Continued leading the campus-wide VoIP phone system migration
-    \item Automated daily tasks for Avaya PBX
-    \item Installed and managed Cisco infrastructure, including analog voice gateways
-    \item Migrated Avaya analog lines to Cisco SCCP, MGCP and H.323 ports
-  \end{itemize}
+        \bigskip
 
-  {\sl Co-lead the campus-wide VoIP phone system migration at Cal Poly Pomona} \hfill 2014
-  \begin{itemize} \itemsep -2pt
-    \item Set up a system for automating Cisco Unified Call Manager population
-    \item Automated information gathering from Avaya PBX
-  \end{itemize}
+        \bg{ccblue}{white}{About me}\\[1.5em]
 
-  {\sl Instruction \& Information Technology at Cal Poly Pomona} \hfill 2013 - 2014
-  \begin{itemize} \itemsep -2pt
-    \item Troubleshot and repaired laptops, desktops and printers
-    \item Organized, documented and inventoried computers and other hardware
-  \end{itemize}
+        A \textbf{strong leader} with a passion for \textbf{building and running} teams
+        with epic \textbf{diversity, culture, and performance}.
 
-  {\sl Collegiate Cyber Defense Competition at Cal Poly Pomona - Linux team} \hfill 2012 - 2014
-  \begin{itemize} \itemsep -2pt
-    \item Secured, maintained and defended simulated networks and servers from intrusions
-    \item Worked on the Linux team and collaborated with other teams: Windows, Network \\
-      Infrastructure and Business
-    \item Performed system audits and composed reports and presentations for the simulated \\
-      company and its representatives
-    \item Practiced building and securing services and servers with the team (15hrs/week)
-    \item Wrote documentation for to be used by team members during the competition
-  \end{itemize}
+        \bigskip
 
-  {\sl Data Recovery Technician, Internship at Drive Medics Data Recovery} \hfill 2010 - 2012
-  \begin{itemize} \itemsep -2pt
-    \item Assisted clients in the data recovery process, performed data recovery and \\
-      forensic services
-    \item Used proprietary hardware and software in the data recovery processes
-    \item Maintained servers and the local network, set up websites and blogs
-    \item Developed and maintained a hard drive inventory program with barcode and \\
-      photo integration
-  \end{itemize}
+        \bg{ccblue}{white}{References}\\[1.5em]
+        \begin{tabular}{r @{\hspace{1em}}l}
 
-\section{Education}
-  {\sl Bachelor of Science,} Computer Science (incomplete) \hfill 2012 - 2016 \\
-  California State Polytechnic University, Pomona
+            Senior RM    & \href{https://www.linkedin.com/in/briana-tomasullo-41053153/}{Bri
+            Tomasullo}                                                                       \\
 
-  {\sl Associate in Arts,} Liberal Arts Emphasis in Mathematics and Sciences \hfill 2010 - 2012 \\
-  Mira Costa College
+            Staff Eng.   & \href{https://www.linkedin.com/in/michael-davis-b7226b/}{Mike
+            Davis}                                                                           \\
 
-\end{resume}
+            CTO          & \href{https://www.linkedin.com/in/milesward/}{Miles Ward}         \\
+
+            Sr. Director & \href{https://www.linkedin.com/in/scottvdp/}{Scott VDP}           \\
+
+        \end{tabular}
+
+        \vspace{2em}
+
+        \bubblediagram{{\textbf{Leader}},  Mentor, Coach, Trainer, DevOps, Cloud, K8s, SRE, HCL}
+
+        \flushleft
+        \infobubble{\faLink}{ccblue}{white}{https://slava.lol}{slava.lol}
+        \infobubble{\faLinkedin}{ccblue}{white}{https://www.linkedin.com/in/slavaaa/}{slavaaa}
+        \infobubble{\faAt}{ccblue}{white}{mailto:me@slava.lol}{me@slava.lol}
+        \infobubble{\faGithub}{ccblue}{white}{https://github.com/slavaaaaaaaaaa/}{slavaaaaaaaaaa}
+        \infobubble{\faPhone}{ccblue}{white}{tel:+18585238059}{+1 858 523 8059}
+        \infobubble{\faMap}{ccblue}{white}{https://maps.app.goo.gl/v7ZNcQoqjzmtDuTv9}{Seattle, WA, USA}
+
+        \vspace{1em}
+        \flushright
+        Full job history dating back to 2010 available on LinkedIn.
+    }
+    %-----------------------------------------------------------
+    \switchcolumn
+
+    \small
+
+    \begin{minipage}[t]{0.5\textwidth}
+        \section*{Leadership skills}
+        \begin{tabular}{r @{\hspace{0.5em}}l}
+            \bg{skilllabelcolour}{iconcolour}{People Management}      & \barrule{0.5}{0.5em}{ccorange} \\
+            \bg{skilllabelcolour}{iconcolour}{Team Building}          & \barrule{0.5}{0.5em}{ccorange} \\
+            \bg{skilllabelcolour}{iconcolour}{Service Productization} & \barrule{0.4}{0.5em}{ccblue}   \\
+            \bg{skilllabelcolour}{iconcolour}{Training/Workshops}     & \barrule{0.35}{0.5em}{ccblue}  \\
+        \end{tabular}
+    \end{minipage}\hfill
+    \begin{minipage}[t]{0.2\textwidth}
+        \section*{Languages}
+        \begin{tabular}{l | ll}
+            \textbf{Russian} & \foreach \n in {1,...,4}{\icon{\faCircle}{ccorange}{\tiny}} \\
+            \textbf{English} & \foreach \n in {1,...,4}{\icon{\faCircle}{ccorange}{\tiny}} \\
+            \textbf{Spanish} & \pictofraction{\faCircle}{ccorange}{2}{black!30}{2}{\tiny}  \\
+            \textbf{French}  & \pictofraction{\faCircle}{ccorange}{1}{black!30}{3}{\tiny}  \\
+            \textbf{Polish}  & \pictofraction{\faCircle}{ccorange}{1}{black!30}{3}{\tiny}  \\
+        \end{tabular}
+    \end{minipage}
+    \bigskip
+
+    \begin{minipage}[t]{0.4\textwidth}
+        \section*{Engineering skills}
+        \begin{tabular}{r @{\hspace{0.4em}}l}
+            \bg{skilllabelcolour}{iconcolour}{AWS \& GCP}           & \barrule{0.4}{0.5em}{ccblue}   \\
+            \bg{skilllabelcolour}{iconcolour}{DevOps, CI/CD, IaC}   & \barrule{0.5}{0.5em}{ccorange} \\
+            \bg{skilllabelcolour}{iconcolour}{Kubernetes \& Helm}   & \barrule{0.4}{0.5em}{ccblue}   \\
+            \bg{skilllabelcolour}{iconcolour}{D2, \LaTeX, Markdown} & \barrule{0.5}{0.5em}{ccorange} \\
+            \bg{skilllabelcolour}{iconcolour}{C/C++/Go/Python}      & \barrule{0.25}{0.5em}{ccblue}  \\
+        \end{tabular}
+    \end{minipage}\hfill
+    \begin{minipage}[t]{0.3\textwidth}
+        \section*{Publications}
+        \begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.7\textwidth}}
+            2025 & \href{https://slava.lol/posts/engineer-experience/}{EngEx: Identifying and Building Engineering Culture} \\
+            2025 & \href{https://slava.lol/posts/documentation/}{R.E.A.D.A.B.L.E. Documentation}                            \\
+            2022 & \href{https://engineering.sada.com/interviewing-engineers-at-sada-b5b3c67d396f}{Interviewing Engineers}  \\
+            2021 & \href{https://engineering.sada.com/write-excellent-code-70b66381d625}{Write Excellent Code}              \\
+        \end{tabular}
+    \end{minipage}
+
+    \section*{Experience Summary}
+
+    \begin{tabular}{r| p{0.5\textwidth} c}
+        \cvevent{2021--2025}{Senior Engineering Manager}
+        {Infrastructure Modernization at SADA}
+        {Remote \color{ccorange}}
+        {- Created and productized multiple service offerings.
+
+            - Integrated 4 international teams: US, Armenia, India, and UK/Ireland.
+
+            - Led and secured multiple Partner Specialization renewals.
+
+            - Engaged in project cycles end-to-end with clients and adjacent teams.
+
+            - Closed multiple project deals.
+
+            - Developed sales enablement and marketing collateral for service offerings.
+
+            - Hired, trained, coached reports in various career stages.
+
+        - Maintained excellence in department's project delivery.} {sada.jpg} \\
+
+        \cvevent{2018--2021}{Senior Cloud Infrastructure Engineer}
+        {Infrastructure Modernization at SADA}
+        {Remote \color{ccorange}}
+        {- Consulted and assisted clients in migrations between AWS, GCP, Kubernetes,
+            EKS, GKS, Cloud SQL, hosted databases, and other systems.
+
+            - Configured and managed CI/CD services and pipelines.
+
+            - Managed infrastructure with Terraform, Ansible, Chef, and Puppet.
+
+            - Embedded with clients to containerize and migrate applications.
+
+            - Worked according to clients' timelines, downtime and technical constraints.
+
+            - Automated internal tasks with Zapier, Bash, GoLang tools.
+
+            - Mentored peers, worked through pair programming sessions.
+        }
+        {sada.jpg}                                                            \\
+
+        \cvevent{2017--2018}{Senior Site Reliability Engineer}
+        {Grindr, LLC}
+        {Los Angeles, CA \color{ccblue}}
+        {- Managed AWS infrastructure with Terraform.
+
+            - Structured and built custom RPM and DEB packages.
+
+            - Transitioned infrastructure from legacy Ubuntu to CentOS.
+
+            - Configured CI/CD using Jenkins pipelines.
+
+            - Automated tasks with Ansible.
+
+            - Worked with other teams to operationalize development efforts.
+
+            - Participated in and submitted bugfixes to relevant OSS projects.}
+        {grindr.jpg}                                                          \\
+
+        \cvevent{2016--2017}{Platform Engineer}
+        {NordstromRack.com}
+        {Los Angeles, CA \color{ccblue}}
+        {- Maintained AWS and GCP infrastructure with Terraform.
+
+            - Implemented CI/CD for AWS AMI builds using Jenkins Pipelines and Packer.
+
+            - Architected and deployed a containerized Nginx routing tool.
+
+            - Managed infrastructure deployment with Puppet, Chef, and Foreman.
+
+            - Migrated vital infrastructure configuration from Puppet to Chef.
+
+            - Presented and participated in the weekly CISSP exam study group.}
+        {nr.jpg}                                                              \\
+
+    \end{tabular}
+    \clearpage
+\end{paracol}
 \end{document}
