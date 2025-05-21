@@ -17,7 +17,9 @@ permalink: /garage
 | 1984 | AM General | [DJ5-L Postal Jeep](assets/vehicles/dj5l.jpg) | 3spd auto | 2021 | |
 | 1989 | Ford | Ranger | 4spd+OD | 2019 | |
 | 1989 | Ford | [F150 XLT Lariat 4x4](assets/vehicles/f150.jpg) | 4spd+OD | 2021 | |
+| 1990 | Subaru | [Loyale](assets/vehicles/loyale.jpeg) | 5spd x push-button 4wd | 2025 | |
 | 1993 | Mazda | [Miata](assets/vehicles/miata.jpg) | 5spd | 2021 | |
+| 1993 | Dodge | Ram 350 wagon | auto | 2025 | |
 | 1995 | Toyota | 4Runner | 5spd | 2023 | selling |
 | 1997 | Dodge | Ram Wagon | auto | 2025 | |
 | 1999 | Chevrolet | Express G3 | auto | 2023 | selling |
@@ -53,7 +55,6 @@ permalink: /garage
 |-|-|-|-|-|
 | 2002 | Suzuki | [SV650](assets/vehicles/02sv650.jpg) | 6spd | 2015 | |
 | 2005 | Suzuki | SV650 | 6spd | 2021 | |
-| 2008 | Genuine Scooter | Stella 150 | 4spd | 2019 | selling |
 | 2009 | Suzuki | SV650s | 6spd | 2022 | |
 
 ## Prior
@@ -69,6 +70,7 @@ permalink: /garage
 | 2001 | Suzuki | [GS500](assets/vehicles/gs500.jpg) | 6spd | | sold |
 | 2003 | BMW | K1200RS | 6spd | 2020-2024 | sold |
 | 2005 (?) | Suzuki | GS500 | 6spd | | sold |
+| 2008 | Genuine Scooter | Stella 150 | 4spd | 2019 | sold |
 | 2011 | Kawasaki | [KLR650](assets/vehicles/klr.jpg) | 5spd | | sold |
 
 # Boats
