@@ -6,8 +6,6 @@ permalink: /garage
 
 # Cars
 
-## Current
-
 | Year | Make | Model | Trans | Owned since | State |
 |-|-|-|-|-|
 | 1964 | Ford | [F350](assets/vehicles/f350.jpg) | 4spd | 2020 | selling |
@@ -28,7 +26,25 @@ permalink: /garage
 | 2003 | BMW | [E46 325xi](assets/vehicles/e46xi.jpg) | 5spd | 2022 | |
 | 2009 | Porsche | 997.2 911 4s | 6spd | 2024 | |
 
-## Prior
+# Motorcycles
+
+| Year | Make | Model | Trans | Owned since | State |
+|-|-|-|-|-|
+| 2002 | Suzuki | [SV650](assets/vehicles/02sv650.jpg) | 6spd | 2015 | |
+| 2005 | Suzuki | SV650 | 6spd | 2021 | |
+| 2009 | Suzuki | SV650s | 6spd | 2022 | |
+
+# Boats
+
+| Year | Make | Model | Owned since | State |
+|-|-|-|-|-|
+| 1980 (?) | Fiberform | | 2020-2023 | scrapped |
+| 1981 | US Yachts | [22](assets/vehicles/us22.jpg) shoal draft | 2021 | |
+| 1982 | Santana | [30/30](assets/vehicles/santana.jpg) hull #1 | 2019-2019 | sold |
+
+# Sold
+
+## Cars
 
 | Year | Make | Model | Trans | Owned | State |
 |-|-|-|-|-|
@@ -48,17 +64,7 @@ permalink: /garage
 | 2000 | BMW | [E46 328i](assets/vehicles/e46.jpg) | 5spd | 2017-2022 | sold |
 | 2001 | Ford | Crown Victoria | auto | 2022-2023 | sold |
 
-# Motorcycles
-
-## Current
-
-| Year | Make | Model | Trans | Owned since | State |
-|-|-|-|-|-|
-| 2002 | Suzuki | [SV650](assets/vehicles/02sv650.jpg) | 6spd | 2015 | |
-| 2005 | Suzuki | SV650 | 6spd | 2021 | |
-| 2009 | Suzuki | SV650s | 6spd | 2022 | |
-
-## Prior
+## Motorcycles
 
 | Year | Make | Model | Trans | Owned | State |
 |-|-|-|-|-|
@@ -73,11 +79,3 @@ permalink: /garage
 | 2005 (?) | Suzuki | GS500 | 6spd | | sold |
 | 2008 | Genuine Scooter | Stella 150 | 4spd | 2019-2025 | sold |
 | 2011 | Kawasaki | [KLR650](assets/vehicles/klr.jpg) | 5spd | | sold |
-
-# Boats
-
-| Year | Make | Model | Owned since | State |
-|-|-|-|-|-|
-| 1980 (?) | Fiberform | | 2020-2023 | scrapped |
-| 1981 | US Yachts | [22](assets/vehicles/us22.jpg) shoal draft | 2021 | |
-| 1982 | Santana | [30/30](assets/vehicles/santana.jpg) hull #1 | 2019-2019 | sold |
