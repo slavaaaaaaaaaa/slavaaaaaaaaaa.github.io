@@ -70,7 +70,7 @@ permalink: /garage
 | 2001 | Suzuki | [GS500](assets/vehicles/gs500.jpg) | 6spd | | sold |
 | 2003 | BMW | K1200RS | 6spd | 2020-2024 | sold |
 | 2005 (?) | Suzuki | GS500 | 6spd | | sold |
-| 2008 | Genuine Scooter | Stella 150 | 4spd | 2019 | sold |
+| 2008 | Genuine Scooter | Stella 150 | 4spd | 2019-2025 | sold |
 | 2011 | Kawasaki | [KLR650](assets/vehicles/klr.jpg) | 5spd | | sold |
 
 # Boats
