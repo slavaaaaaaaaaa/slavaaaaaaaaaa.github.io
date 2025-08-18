@@ -15,6 +15,17 @@ Check out my [resume](docs/resume/resume.pdf)!
 {% endfor %}
 </table>
 
+## Presentations, talks and workshops
+
+| Year | Topic |
+|-|-|
+| 2025 | [Can you hear me now? A survey of communications platforms during emergencies](https://bsides-lv.slava.lol/) |
+| 2025 | [Engineering Culture: creating, maintaining, identifying a high quality technical environment](http://layerone.slava.lol/) |
+| 2019 | [Git, secrets, and you!](https://slava.lol/sada-beer-and-learn-1/) |
+| 2017 | [Storing secrets in the wild](grindr-demo-day-1) |
+| 2017 | [GoCD POC: why jenkins won](grindr-demo-day-2) |
+| 2017 | [CISSP: Access Management](cissp-access-mgmt-presentation/) |
+
 ## Notable projects
 
 * A replacement [controller for my Litter Robot 3](https://litter-controller.slava.lol/) written in C
@@ -48,17 +59,6 @@ Check out my [resume](docs/resume/resume.pdf)!
   </tr>
 {% endfor %}
 </table>
-
-## Presentations
-
-| Year | Topic |
-|-|-|
-| 2025 | [Can you hear me now? A survey of communications platforms during emergencies](https://bsides-lv.slava.lol/) |
-| 2025 | [Engineering Culture: creating, maintaining, identifying a high quality technical environment](http://layerone.slava.lol/) |
-| 2019 | [Git, secrets, and you!](https://slava.lol/sada-beer-and-learn-1/) |
-| 2017 | [Storing secrets in the wild](grindr-demo-day-1) |
-| 2017 | [GoCD POC: why jenkins won](grindr-demo-day-2) |
-| 2017 | [CISSP: Access Management](cissp-access-mgmt-presentation/) |
 
 ## Friends
 
