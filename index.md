@@ -51,17 +51,20 @@ Check out my [resume](docs/resume/resume.pdf)!
 
 ## Presentations
 
-* Another presentation [about secret storage](https://slava.lol/sada-beer-and-learn-1/) given at SADA
-* Grindr birthed
-    * a presentation [about secret storage](grindr-demo-day-1) as well as
-    * one about a [failed POC of GoCD](grindr-demo-day-2)
-* At `NordstromRack.com|Hautelook` I produced [a presentation on a few CISSP chapters](cissp-access-mgmt-presentation/) with a partner
-    * though it's not as useful without our [notes](https://github.com/slavaaaaaaaaaa/cissp-access-mgmt-presentation/blob/master/presentation.md)
+| Year | Topic |
+|-|-|
+| 2025 | [Can you hear me now? A survey of communications platforms during emergencies](https://bsides-lv.slava.lol/) |
+| 2025 | [Engineering Culture: creating, maintaining, identifying a high quality technical environment](http://layerone.slava.lol/) |
+| 2019 | [Git, secrets, and you!](https://slava.lol/sada-beer-and-learn-1/) |
+| 2017 | [Storing secrets in the wild](grindr-demo-day-1) |
+| 2017 | [GoCD POC: why jenkins won](grindr-demo-day-2) |
+| 2017 | [CISSP: Access Management](cissp-access-mgmt-presentation/) |
 
 ## Friends
 
 Sorted by most updated:
 
+* Ryan Ngo documents the [IT industry and his growth](https://niugnep.me/)
 * Ian Foster challenges defaults [in his regular blog](https://lanrat.com/)
 * Jonathan M. Tran writes about [linux and photography](https://blog.jonathanmtran.com/)
 * Ian Eusebio is documenting his knowledge in [regular blog posts](https://iangge.github.io/)
