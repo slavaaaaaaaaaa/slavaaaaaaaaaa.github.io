@@ -15,7 +15,7 @@ Check out my [resume](docs/resume/resume.pdf)!
 {% endfor %}
 </table>
 
-## Presentations, talks and workshops
+## Talks and workshops
 
 | Year | Topic |
 |-|-|
