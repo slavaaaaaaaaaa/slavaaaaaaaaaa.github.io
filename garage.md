@@ -8,20 +8,18 @@ permalink: /garage
 
 | Year | Make | Model | Trans | Owned since | State |
 |-|-|-|-|-|
-| 1965 | Dodge | D100 | 3spd on the tree | 2023 | fixing |
 | 1971 | Jeep | M35A2 2.5-ton 6x6 | 5spd x 2-range TC | 2023 | fixing |
 | 1976 | MG | Midget 1500 | 4spd | 2018 | |
-| 1984 | AM General | [DJ5-L Postal Jeep](assets/vehicles/dj5l.jpg) | 3spd auto | 2021 | |
+| 1984 | AM General | [DJ5-L Postal Jeep](assets/vehicles/dj5l.jpg) | 3spd auto | 2021 | selling |
 | 1989 | Ford | Ranger | 4spd+OD | 2019 | replacing trans |
 | 1989 | Ford | [F150 XLT Lariat 4x4](assets/vehicles/f150.jpg) | 4spd+OD | 2021 | replacing engine |
 | 1990 | Subaru | [Loyale](assets/vehicles/loyale.jpeg) | 5spd x push-button 4wd | 2025 | |
-| 1991 | Ford | Ranger | auto | 2025 | replacing flexplate |
 | 1993 | Mazda | [Miata](assets/vehicles/miata.jpg) | 5spd | 2021 | |
 | 1993 | Dodge | Ram 350 15 passenger van | auto | 2025 | |
 | 1995 | Toyota | 4Runner | 5spd | 2023 | selling |
 | 1997 | Dodge | Ram Wagon | auto | 2025 | replacing trans |
 | 1999 | Chevrolet | Express G3 | auto | 2023 | selling |
-| 2003 | BMW | [E46 325xi](assets/vehicles/e46xi.jpg) | 5spd | 2022 | |
+| 2003 | BMW | [E46 325xi](assets/vehicles/e46xi.jpg) | 5spd | 2022 | selling |
 | 2009 | Porsche | 997.2 911 4s | 6spd | 2024 | |
 
 # Motorcycles
@@ -37,7 +35,7 @@ permalink: /garage
 | Year | Make | Model | Owned since | State |
 |-|-|-|-|-|
 | 1980 (?) | Fiberform | | 2020-2023 | scrapped |
-| 1981 | US Yachts | [22](assets/vehicles/us22.jpg) shoal draft | 2021 | |
+| 1981 | US Yachts | [22](assets/vehicles/us22.jpg) shoal draft | 2021 | traded for whiskey |
 | 1982 | Santana | [30/30](assets/vehicles/santana.jpg) hull #1 | 2019-2019 | sold |
 
 # Sold
@@ -47,6 +45,7 @@ permalink: /garage
 | Year | Make | Model | Trans | Owned | State |
 |-|-|-|-|-|
 | 1964 | Ford | [F350](assets/vehicles/f350.jpg) | 4spd | 2020-25 | sold |
+| 1965 | Dodge | D100 | 3spd on the tree | 2023 | sold |
 | 1973 | Volkswagen | [Beetle](assets/vehicles/beetle.jpg) | 5spd | 2015-18 | sold |
 | 1982 | BMW | [E21 320i](assets/vehicles/e21.jpg) | 5spd | 2017-20 | sold |
 | 1984 | Mercedes | [W201 190e](assets/vehicles/190e.jpg) | 5spd | 2019-24 | sold |
@@ -55,6 +54,7 @@ permalink: /garage
 | 1988 | Mazda | [B2200](assets/vehicles/b2200.jpg) | 5spd | 2020-21 | sold |
 | 1990 | Ford | F150 XLT Lariat 4x4 | 4spd+OD | 2022-23 | scrapped |
 | 1989 | Nissan | D21 | 5spd | 2021-22 | sold |
+| 1991 | Ford | Ranger | auto | 2025 | sold |
 | 1993 | Ford | Ranger | 4spd+OD | 2019-19 | sold |
 | 1993 | Saab | [900s](assets/vehicles/saab.jpg) | 5spd | 2022-24 | sold |
 | 1994 | BMW | [E34 530i](assets/vehicles/e34.jpg) | 5spd | | sold |
