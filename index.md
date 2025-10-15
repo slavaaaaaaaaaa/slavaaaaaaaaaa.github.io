@@ -50,7 +50,7 @@ Check out my [resume](docs/resume/resume.pdf)!
 
 ## City guides
 
-<table class="posts">
+<ul>
 {% for post in site.posts %}
   <tr>
   {% if post.tag == "guide" %}
@@ -58,7 +58,7 @@ Check out my [resume](docs/resume/resume.pdf)!
   {% endif %}
   </tr>
 {% endfor %}
-</table>
+</ul>
 
 ## Friends
 
