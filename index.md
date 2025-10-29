@@ -19,7 +19,9 @@ Check out my [resume](docs/resume/resume.pdf)!
 
 | Year | Topic |
 |-|-|
-| 2025 | [Can you hear me now? A survey of communications platforms during emergencies](https://bsides-lv.slava.lol/) |
+| 2025 | [Meshtastic Workshop @ BSsidesPDX '25](https://meshsides.coolconsulting.lol/) |
+| 2025 | [From walkie-talkies to Meshtastic: an overview on communication platforms](https://www.youtube.com/watch?v=2E05D_vZJ-A) |
+| 2025 | [Can you hear me now? A survey of communications platforms during emergencies](https://www.youtube.com/watch?v=1ESF30ohXro) |
 | 2025 | [Engineering Culture: creating, maintaining, identifying a high quality technical environment](http://layerone.slava.lol/) |
 | 2019 | [Git, secrets, and you!](https://slava.lol/sada-beer-and-learn-1/) |
 | 2017 | [Storing secrets in the wild](grindr-demo-day-1) |
