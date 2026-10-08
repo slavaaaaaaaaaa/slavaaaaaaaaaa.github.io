@@ -23,3 +23,6 @@ dependencies:
 
 local-jekyll:
 	bundle exec jekyll serve
+
+resume:
+	$(MAKE) -C resume

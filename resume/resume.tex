@@ -1,0 +1,224 @@
+% !TeX root = resume.tex
+\documentclass[pastel]{simplehipstercv}
+% available options are: darkhipster, lighthipster, pastel, allblack, grey, verylight, withoutsidebar
+% withoutsidebar
+\usepackage[utf8]{inputenc}
+\usepackage[default]{raleway}
+\usepackage[margin=0.7cm, letterpaper]{geometry}
+
+
+\usepackage{hyperref}
+\usepackage{accsupp}
+% Alt text for icon glyphs: extractors read #1 instead of the icon's private-use codepoint.
+\newcommand{\alt}[2]{\BeginAccSupp{method=escape,ActualText={#1}}#2\EndAccSupp{}}
+
+\definecolor{ccblue}{HTML}{7e91c6}
+\definecolor{ccorange}{HTML}{f7bea9}
+\colorlet{cclink}{ccblue!75!black}
+\colorlet{ccheader}{ccblue!70!black}
+\colorlet{ccsidebar}{ccblue!8}
+
+% Sidebar background: a light periwinkle wash instead of flat grey.
+\renewcommand{\paracolbackgroundoptions}{
+\backgroundcolor{c[0](4pt,4pt)(0.5\columnsep,4pt)}{ccsidebar}
+\backgroundcolor{c[1](0.5\columnsep,4pt)(4pt,4pt)}{white}
+\backgroundcolor{C[0](10000pt,10000pt)(0.5\columnsep,10000pt)}{ccsidebar}
+\backgroundcolor{C[1](0.5\columnsep,10000pt)(10000pt,10000pt)}{white}
+}
+
+\hypersetup{
+  colorlinks, linkcolor=cclink, citecolor=cclink, urlcolor=cclink,
+  pdftitle={Slava I. Maslennikov -- Resume},
+  pdfauthor={Slava I. Maslennikov},
+  pdfsubject={Engineering leader, cloud platforms, applied AI},
+  pdfkeywords={engineering manager, principal engineer, consultant, cloud, GCP, AWS, Kubernetes, Terraform, SRE, DevOps, CI/CD, infrastructure as code, LLM, RAG, LangGraph, applied AI, platform engineering, migration, security, Meshtastic, LoRa},
+}
+
+% Tighter spacing between experience entries than the class default (1em).
+% Logo sits under the year in the left column; the description column gets the width instead.
+% Description text is ragged right with hyphenation off, so words never break across lines.
+\renewcommand{\cvevent}[6]{{#1}\par\vspace{0.8em}\noindent\makebox[\linewidth][c]{\includegraphics[height=0.65cm]{#6}} & \textbf{#2}\newline\textsc{#3} $\cdot$ {#4 ~\faMapMarker}\newline{\color{black!70}\footnotesize\raggedright\hyphenpenalty=10000\exhyphenpenalty=10000 #5\vspace{0.7em}\par}}
+
+%------------------------------------------------------------------ Variablen
+
+\newlength{\rightcolwidth}
+\newlength{\leftcolwidth}
+\setlength{\leftcolwidth}{0.23\textwidth}
+\setlength{\rightcolwidth}{0.75\textwidth}
+
+\title{Slava I. Maslennikov -- Resume}
+\author{Slava I. Maslennikov}
+\date{\today}
+
+\pagestyle{empty}
+\begin{document}
+
+\thispagestyle{empty}
+%-------------------------------------------------------------
+
+\section*{}  % intentionally empty: sits under the header band, keeps the template's spacing
+
+\simpleheader{ccheader}{Slava I.}{Maslennikov}{Principal Engineer \& Engineering Leader ~·~ Cloud Platforms, Applied AI}{white}
+
+%------------------------------------------------
+
+% this has to be here so the paracols starts..
+\subsection*{}
+\vspace{4em}
+
+\setlength{\columnsep}{1.1cm}
+\columnratio{0.22}[0.76]
+\begin{paracol}{2}
+    \hbadness5000
+    %\backgroundcolor{c[1]}[rgb]{1,1,0.8} % cream yellow for column-1 %\backgroundcolor{g}[rgb]{0.8,1,1} % \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
+
+    \paracolbackgroundoptions
+
+    % 0.9,0.9,0.9 -- 0.8,0.8,0.8
+
+    \footnotesize
+    {\setasidefontcolour
+        \flushright
+        \begin{center}
+            \squarepic{../me.png}
+        \end{center}
+
+        \bg{ccblue}{white}{About me}\\[1.5em]
+
+        Founder of \href{https://coolconsulting.lol}{Cool Consulting, LLC}: cloud
+        platforms and applied AI. Previously engineering leader in Cloud
+        Infrastructure Modernization. \textbf{Worldwide} delivery, new offerings,
+        \textbf{teams that scale}.
+
+        \bigskip
+
+        \bg{ccblue}{white}{References}\\[1.5em]
+        \begin{tabular}{r @{\hspace{1em}}l}
+
+            Senior RM    & \href{https://www.linkedin.com/in/briana-tomasullo-41053153/}{Bri
+            Tomasullo}                                                                       \\
+
+            Staff Eng.   & \href{https://www.linkedin.com/in/michael-davis-b7226b/}{Mike
+            Davis}                                                                           \\
+
+            CTO          & \href{https://www.linkedin.com/in/milesward/}{Miles Ward}         \\
+
+            Sr. Director & \href{https://www.linkedin.com/in/scottvdp/}{Scott VDP}           \\
+
+        \end{tabular}
+
+        \bigskip
+
+        \bg{ccblue}{white}{Languages}\\[1.5em]
+        \begin{tabular}{r @{\hspace{0.6em}}l}
+            \textbf{Russian} & \foreach \n in {1,...,4}{\icon{\faCircle}{ccorange}{\tiny}} \\
+            \textbf{English} & \foreach \n in {1,...,4}{\icon{\faCircle}{ccorange}{\tiny}} \\
+            \textbf{Spanish} & \pictofraction{\faCircle}{ccorange}{2}{black!30}{2}{\tiny}  \\
+            \textbf{French}  & \pictofraction{\faCircle}{ccorange}{1}{black!30}{3}{\tiny}  \\
+        \end{tabular}
+
+        \vspace{1.5em}
+        \flushleft
+        \infobubble{\alt{Website: }{\faLink}}{ccblue}{white}{https://slava.lol}{slava.lol}
+        \infobubble{\alt{Company: }{\faBriefcase}}{ccblue}{white}{https://coolconsulting.lol}{coolconsulting.lol}
+        \infobubble{\alt{LinkedIn: linkedin.com/in/}{\faLinkedin}}{ccblue}{white}{https://www.linkedin.com/in/slavaaa/}{slavaaa}
+        \infobubble{\alt{Email: }{\faAt}}{ccblue}{white}{mailto:me@slava.lol}{me@slava.lol}
+        \infobubble{\alt{GitHub: github.com/}{\faGithub}}{ccblue}{white}{https://github.com/slavaaaaaaaaaa/}{slavaaaaaaaaaa}
+        \infobubble{\alt{Phone: }{\faPhone}}{ccblue}{white}{tel:+18585238059}{+1 858 523 8059}
+        \infobubble{\alt{Location: }{\faMap}}{ccblue}{white}{https://maps.app.goo.gl/v7ZNcQoqjzmtDuTv9}{Seattle, WA, USA}
+
+        \vspace{1em}
+        \flushright
+        Full job history available on LinkedIn.
+    }
+    %-----------------------------------------------------------
+    \switchcolumn
+
+    \small
+
+    \section*{Skills}
+    \begin{tabular}{>{\footnotesize\bfseries\raggedleft\arraybackslash}p{2.6cm} >{\footnotesize\raggedright\arraybackslash}p{0.56\textwidth}}
+        Leadership: & People management, hiring, coaching, distributed teams, productization, training \\
+        Cloud \& platform: & GCP, AWS, Kubernetes, Cloud Run, Terraform, CI/CD, IaC, SRE, incident response \\
+        Applied AI: & LLM apps, RAG and hybrid retrieval, LangGraph, evaluation suites, load testing \\
+        Tools: & Go, Python, Bash, D2, \LaTeX{}, Markdown; LoRa and Meshtastic hardware \\
+    \end{tabular}
+
+    \section*{Talks, Workshops \& Publications}
+    \begin{tabular}{>{\footnotesize\bfseries\raggedleft\arraybackslash}p{2.6cm} >{\footnotesize}p{2.5cm} >{\footnotesize\scshape}p{1.4cm} >{\footnotesize\raggedright\arraybackslash}p{0.33\textwidth}}
+        2026 & BSides Las Vegas & talk     & \href{https://coolconsulting.lol/talks/bsideslv-26/}{Broadcast, Don't Chat} \\
+        2026 & BSides Seattle   & workshop & \href{https://coolconsulting.lol/workshops/bsides-seattle-26/}{Hands-on Meshtastic} \\
+        2026 & SCaLE 23x        & workshop & \href{https://www.socallinuxexpo.org/scale/23x/presentations/workshop-long-range-cheap-comms-through-meshtastic}{Long-range cheap comms through Meshtastic} \\
+        2025 & BSidesPDX        & workshop & \href{https://coolconsulting.lol/workshops/bsidespdx-25/}{Hands-on Meshtastic} \\
+        2025 & BSidesPDX        & talk     & \href{https://www.youtube.com/watch?v=2E05D_vZJ-A}{From walkie-talkies to Meshtastic} \\
+        2025 & BSides Las Vegas & talk     & \href{https://www.youtube.com/watch?v=1ESF30ohXro}{Can you hear me now?} \\
+        2025 & LayerOne         & talk     & \href{http://layerone.slava.lol/}{Engineering Culture} \\
+        2022 & SADA blog        & article  & \href{https://engineering.sada.com/interviewing-engineers-at-sada-b5b3c67d396f}{Interviewing Engineers} \\
+        2021 & SADA blog        & article  & \href{https://engineering.sada.com/write-excellent-code-70b66381d625}{Write Excellent Code} \\
+    \end{tabular}
+
+    \section*{Experience}
+
+    \begin{tabular}{>{\raggedleft\arraybackslash}p{1.6cm}| p{0.59\textwidth}}
+        \cvevent{2024--now}{Founder \& Principal Engineer}
+        {\href{https://coolconsulting.lol}{Cool Consulting, LLC}}
+        {Seattle, WA \color{ccblue}}
+        {- Boutique consultancy for cloud platforms and applied AI; every engagement from
+        referral. Client work under NDA; write-ups and open source at \href{https://coolconsulting.lol/projects/}{coolconsulting.lol/projects}.
+
+            - \href{https://coolconsulting.lol/clients/ai-chatbot/}{Enterprise RAG assistant} on GCP (2026--): FastAPI, LangGraph, Claude, hybrid
+            pgvector + full-text retrieval (RRF), MFA, region-pinned data. Cut p95
+            time-to-first-token from 160s to 10s at 40 concurrent users; scope extended twice.
+
+            - \href{https://coolconsulting.lol/clients/security-remediation/}{Security audit \& remediation} (2026): 66 findings rated critical--low; criticals
+            closed within hours of approval.
+
+            - \href{https://coolconsulting.lol/clients/engagement-3/}{GCP \& Workspace migration} (2025): led PM, leadership, and SRE with an overseas
+            partner; 30\,TB across 35 seats; $\sim$500 $\rightarrow$ 10 GCP projects; staged off-peak cutovers.
+
+            - \href{https://coolconsulting.lol/clients/engagement-2/}{Music streaming platform} (2025): laptop prototype to multi-env GCP in Terraform;
+            Cloud Run + HTTPS LB; Fastly CDN with HMAC-signed private media; keyless CI (WIF).}
+        {cc.jpg} \\
+
+        \cvevent{2021--2025}{Senior Engineering Manager}
+        {\href{https://sada.com}{SADA} $\cdot$ Associate Mgr 2021 $\rightarrow$ Mgr 2021 $\rightarrow$ Senior Mgr 2022}
+        {Remote \color{ccorange}}
+        {- Opened a Yerevan, Armenia office; interviewed 100+ candidates to hire $\sim$25
+        engineers, billable in 1.5 weeks; aligned delivery across the US, Canada, India, Armenia, and UK.
+
+            - Converted bench time into 15+ reusable Terraform modules and internal platforms,
+            5 packaged Infrastructure Modernization offerings (scope, packaging, GTM), and 20+
+            Google Cloud certifications; owned pursuits and closed engagements.
+
+            - Sustained Google Cloud Infrastructure Modernization Partner Specialization through
+            biennial audits over 7 years with 15+ customer references and case studies; trained
+            cohorts of 10--50.}
+        {sada.jpg} \\
+
+        \cvevent{2018--2021}{Senior Cloud Infrastructure Engineer}
+        {Infrastructure Modernization at \href{https://sada.com}{SADA}}
+        {Remote \color{ccorange}}
+        {- Delivered 10+ migrations and greenfield builds across AWS, GCP, and Kubernetes;
+            embedded with clients to containerize 20+ workloads onto cloud-native runtimes.
+
+            - Built and operated CI/CD and Infrastructure-as-Code (Terraform, Ansible, Chef,
+            Puppet); automated internal workflows (Zapier, Bash, Go); mentored peers.
+        }
+        {sada.jpg}                                                            \\
+
+        \cvevent{2017--2018}{Senior Site Reliability Engineer}
+        {\href{https://www.grindr.com}{Grindr, LLC}}
+        {Los Angeles, CA \color{ccblue}}
+        {- AWS as code (Terraform); release automation with Jenkins; toil reduction with
+            Ansible; custom RPM/DEB packaging; fleet migration from legacy Ubuntu to CentOS.}
+        {grindr.jpg}                                                          \\
+
+        \cvevent{2016--2017}{Platform Engineer}
+        {\href{https://www.nordstromrack.com}{NordstromRack.com}}
+        {Los Angeles, CA \color{ccblue}}
+        {- Hybrid AWS and GCP with Terraform; built a containerized Nginx routing layer;
+            provisioning with Puppet, Chef, and Foreman; migrated fleet config from Puppet to Chef.}
+        {nr.jpg}                                                              \\
+    \end{tabular}
+\end{paracol}
+\end{document}

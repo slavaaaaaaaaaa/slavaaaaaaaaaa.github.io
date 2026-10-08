@@ -7,7 +7,7 @@ title: Interviewing engineers
 
 *This post was originally published on the [SADA Engineering Blog](https://engineering.sada.com/interviewing-engineers-at-sada-b5b3c67d396f).*
 
-In my [numerous job hops](docs/resume.pdf) over the last few years I've experienced all ranges and types of interviewing. At SADA, we've been able to build out interview scaffolding that has proven to be effective for both parties—the interviewers and the candidate. This post is a rough outline of how we move engineering candidates from recruiting to hiring. There shouldn't be any big secrets here. This guide will help you know what to expect, but you certainly want to be prepared with the right mix of skills and experience, as well.
+In my [numerous job hops](/resume.pdf) over the last few years I've experienced all ranges and types of interviewing. At SADA, we've been able to build out interview scaffolding that has proven to be effective for both parties—the interviewers and the candidate. This post is a rough outline of how we move engineering candidates from recruiting to hiring. There shouldn't be any big secrets here. This guide will help you know what to expect, but you certainly want to be prepared with the right mix of skills and experience, as well.
 
 Please note that interviews for leadership candidates are out of scope for this post.
 
